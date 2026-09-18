@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advantage Care Services — Coming Soon</title>
+  <meta name="description" content="Advantage Care Services, Inc. — compassionate non-medical home care, homemaker, and personal care services across northeastern Illinois. Our new website is coming soon.">
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --coral: #f25c4f;
+      --coral-dark: #d94a3e;
+      --coral-soft: #fdecea;
+      --ink: #2e2a29;
+      --muted: #6b6361;
+      --bg: #fffaf8;
+      --white: #ffffff;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+
+    .hero {
+      background: var(--coral);
+      color: var(--white);
+      text-align: center;
+      padding: 3.5rem 1.25rem 5.5rem;
+    }
+
+    .logo {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 1.75rem;
+      box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.25);
+    }
+
+    .eyebrow {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 0.8rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      opacity: 0.9;
+    }
+
+    h1 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 800;
+      font-size: clamp(2.25rem, 6vw, 3.5rem);
+      line-height: 1.1;
+      margin: 0.5rem 0 1rem;
+    }
+
+    .tagline {
+      max-width: 34rem;
+      margin: 0 auto;
+      font-size: 1.1rem;
+    }
+
+    main {
+      flex: 1;
+      width: 100%;
+      max-width: 60rem;
+      margin: -3rem auto 0;
+      padding: 0 1.25rem 3rem;
+    }
+
+    .card {
+      background: var(--white);
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(46, 42, 41, 0.08);
+      padding: 2.25rem 2rem;
+    }
+
+    .card h2 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 1.35rem;
+      text-align: center;
+      margin-bottom: 1.75rem;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.25rem;
+      list-style: none;
+    }
+
+    .services li {
+      background: var(--coral-soft);
+      border-radius: 12px;
+      padding: 1.25rem;
+    }
+
+    .services h3 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--coral-dark);
+      margin-bottom: 0.35rem;
+    }
+
+    .services p {
+      font-size: 0.92rem;
+      color: var(--muted);
+    }
+
+    .facts {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem 1.75rem;
+      margin-top: 1.75rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #f1e4e1;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--muted);
+    }
+
+    .facts span::before {
+      content: "✓";
+      color: var(--coral);
+      margin-right: 0.4rem;
+    }
+
+    .contact {
+      text-align: center;
+      margin-top: 2.5rem;
+    }
+
+    .contact p { color: var(--muted); }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.85rem 1.75rem;
+      border-radius: 999px;
+      background: var(--coral);
+      color: var(--white);
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      text-decoration: none;
+      transition: background 0.2s ease;
+    }
+
+    .btn:hover, .btn:focus-visible { background: var(--coral-dark); }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem 1.25rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 480px) {
+      .logo { width: 140px; height: 140px; }
+      .card { padding: 1.75rem 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <img class="logo" src="logo.png" alt="Advantage Care Services logo">
+    <p class="eyebrow">New Website Coming Soon</p>
+    <h1>Care in the comfort of home.</h1>
+    <p class="tagline">
+      Advantage Care Services provides compassionate, non-medical home care so
+      you and your loved ones can live safely and independently at home.
+    </p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>What we do</h2>
+      <ul class="services">
+        <li>
+          <h3>Personal Care</h3>
+          <p>Help with hygiene, grooming, mobility, meals, and medication reminders.</p>
+        </li>
+        <li>
+          <h3>Homemaker Services</h3>
+          <p>Light housekeeping, laundry, errands, grocery shopping, and companionship.</p>
+        </li>
+        <li>
+          <h3>Deep Cleaning</h3>
+          <p>A dedicated team to restore homes that need an intensive cleanup.</p>
+        </li>
+      </ul>
+      <div class="facts">
+        <span>Licensed in Illinois</span>
+        <span>20+ years combined experience</span>
+        <span>Screened &amp; supervised caregivers</span>
+        <span>12 languages spoken</span>
+      </div>
+    </section>
+
+    <section class="contact">
+      <p>Serving Will, DuPage, Cook, Kankakee, Grundy, Kendall, Kane, McHenry &amp; Lake counties.</p>
+      <p>Need care now? We're here to help.</p>
+      <a class="btn" href="mailto:advantagecareservices123@gmail.com">Contact Us</a>
+    </section>
+  </main>
+
+  <footer>
+    &copy; <span id="year">2026</span> Advantage Care Services, Inc. &middot; Bolingbrook, Illinois
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
