@@ -1,224 +1,875 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Advantage Care Services — Coming Soon</title>
-  <meta name="description" content="Advantage Care Services, Inc. — compassionate non-medical home care, homemaker, and personal care services across northeastern Illinois. Our new website is coming soon.">
-  <link rel="icon" type="image/png" href="logo.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --coral: #f25c4f;
-      --coral-dark: #d94a3e;
-      --coral-soft: #fdecea;
-      --ink: #2e2a29;
-      --muted: #6b6361;
-      --bg: #fffaf8;
-      --white: #ffffff;
-    }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+  <head>
+  
 
-    body {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-      color: var(--ink);
-      background: var(--bg);
-      line-height: 1.6;
-    }
 
-    .hero {
-      background: var(--coral);
-      color: var(--white);
-      text-align: center;
-      padding: 3.5rem 1.25rem 5.5rem;
-    }
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3L0WY4HQG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    .logo {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      display: block;
-      margin: 0 auto 1.75rem;
-      box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.25);
-    }
+    gtag('config', 'G-Q3L0WY4HQG');
+  </script>
 
-    .eyebrow {
-      font-family: "Montserrat", sans-serif;
-      font-weight: 700;
-      font-size: 0.8rem;
-      letter-spacing: 0.3em;
-      text-transform: uppercase;
-      opacity: 0.9;
-    }
 
-    h1 {
-      font-family: "Montserrat", sans-serif;
-      font-weight: 800;
-      font-size: clamp(2.25rem, 6vw, 3.5rem);
-      line-height: 1.1;
-      margin: 0.5rem 0 1rem;
-    }
 
-    .tagline {
-      max-width: 34rem;
-      margin: 0 auto;
-      font-size: 1.1rem;
-    }
 
-    main {
-      flex: 1;
-      width: 100%;
-      max-width: 60rem;
-      margin: -3rem auto 0;
-      padding: 0 1.25rem 3rem;
-    }
+  <meta charset="utf-8">
+  
+  
+  <meta name="description" content="Non-medical home care, personal care, and homemaker services from offices in Chicago, Joliet, and Bolingbrook, serving nine Illinois counties.">
+  
+  
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Home Care in Chicago, Joliet & Bolingbrook | Advantage Care</title>
+  <link rel="canonical" href="https://advantagecareservices.com/">
 
-    .card {
-      background: var(--white);
-      border-radius: 16px;
-      box-shadow: 0 10px 30px rgba(46, 42, 41, 0.08);
-      padding: 2.25rem 2rem;
-    }
+  <!-- Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Advantage Care Services">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Home Care in Chicago, Joliet &amp; Bolingbrook | Advantage Care">
+  <meta property="og:description" content="Non-medical home care, personal care, and homemaker services from offices in Chicago, Joliet, and Bolingbrook, serving nine Illinois counties.">
+  <meta property="og:url" content="https://advantagecareservices.com/">
+  <meta property="og:image" content="https://advantagecareservices.com/assets/img/hero/social-share.jpg">
+  <meta name="twitter:card" content="summary_large_image">
 
-    .card h2 {
-      font-family: "Montserrat", sans-serif;
-      font-weight: 700;
-      font-size: 1.35rem;
-      text-align: center;
-      margin-bottom: 1.75rem;
-    }
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://advantagecareservices.com/#organization",
+        "name": "Advantage Care Services, Inc.",
+        "alternateName": "Advantage Care Services",
+        "description": "Non-medical home care, homemaker, and personal care services from offices in Bolingbrook, Chicago, and Joliet, serving families across nine Illinois counties.",
+        "url": "https://advantagecareservices.com/",
+        "logo": "https://advantagecareservices.com/assets/img/logo.png",
+        "image": "https://advantagecareservices.com/assets/img/hero/social-share.jpg",
+        "areaServed": [
+          { "@type": "AdministrativeArea", "name": "Will County, Illinois" },
+          { "@type": "AdministrativeArea", "name": "DuPage County, Illinois" },
+          { "@type": "AdministrativeArea", "name": "Cook County, Illinois" },
+          { "@type": "AdministrativeArea", "name": "Kankakee County, Illinois" },
+          { "@type": "AdministrativeArea", "name": "Grundy County, Illinois" },
+          { "@type": "AdministrativeArea", "name": "Kendall County, Illinois" },
+          { "@type": "AdministrativeArea", "name": "Kane County, Illinois" },
+          { "@type": "AdministrativeArea", "name": "McHenry County, Illinois" },
+          { "@type": "AdministrativeArea", "name": "Lake County, Illinois" }
+        ],
+        "knowsLanguage": ["English","Spanish","French","Polish","Hindi","Mandarin","Russian","German","Hebrew","Lingala","Swahili","Flemish"],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Home Care Services",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Personal Care", "description": "Respectful, hands-on help with the personal routines that keep you comfortable and confident." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Meals & Nutrition", "description": "Planning and preparing meals, and help at mealtimes when it's needed." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mobility & Exercise", "description": "Safe support for moving around the home and staying active." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reminders & Appointments", "description": "Staying on schedule with medications and appointments, with a companion by your side." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Housekeeping & Laundry", "description": "Keeping your home clean, tidy, and comfortable to live in." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Errands & Companionship", "description": "Help with shopping and errands, and friendly company throughout the day." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Deep Cleaning", "description": "A dedicated team for intensive cleanup of heavily soiled or neglected homes." } }
+          ]
+        }
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://advantagecareservices.com/locations/#bolingbrook",
+        "name": "Advantage Care Services, Inc.",
+        "description": "Advantage Care Services home care office in Bolingbrook, Illinois.",
+        "url": "https://advantagecareservices.com/locations/#bolingbrook",
+        "image": "https://advantagecareservices.com/assets/img/hero/social-share.jpg",
+        "telephone": "+13314313040",
+        "faxNumber": "630-759-0327",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "503 South Weber Road, Suite 203C",
+          "addressLocality": "Bolingbrook",
+          "addressRegion": "IL",
+          "postalCode": "60490",
+          "addressCountry": "US"
+        },
+        "hasMap": "https://maps.app.goo.gl/tkDjcopDo5LnRUPG7",
+        "parentOrganization": { "@id": "https://advantagecareservices.com/#organization" }
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://advantagecareservices.com/locations/#chicago",
+        "name": "Advantage Care Services, Inc.",
+        "description": "Advantage Care Services home care office in Chicago, Illinois.",
+        "url": "https://advantagecareservices.com/locations/#chicago",
+        "image": "https://advantagecareservices.com/assets/img/hero/social-share.jpg",
+        "telephone": "+17734756573",
+        "faxNumber": "630-759-0327",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "3520 South Morgan, Suite 225",
+          "addressLocality": "Chicago",
+          "addressRegion": "IL",
+          "postalCode": "60609",
+          "addressCountry": "US"
+        },
+        "hasMap": "https://maps.app.goo.gl/VSzhwRz5ZqP9aosGA",
+        "parentOrganization": { "@id": "https://advantagecareservices.com/#organization" }
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://advantagecareservices.com/locations/#joliet",
+        "name": "Advantage Care Services, Inc.",
+        "description": "Advantage Care Services home care office in Joliet, Illinois.",
+        "url": "https://advantagecareservices.com/locations/#joliet",
+        "image": "https://advantagecareservices.com/assets/img/hero/social-share.jpg",
+        "telephone": "+17792421672",
+        "faxNumber": "630-759-0327",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "210 North Hammes Ave, Suite 201",
+          "addressLocality": "Joliet",
+          "addressRegion": "IL",
+          "postalCode": "60435",
+          "addressCountry": "US"
+        },
+        "hasMap": "https://maps.app.goo.gl/NPL3a99kAgGfu3Td9",
+        "parentOrganization": { "@id": "https://advantagecareservices.com/#organization" }
+      }
+    ]
+  }
+  </script>
 
-    .services {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1.25rem;
-      list-style: none;
-    }
 
-    .services li {
-      background: var(--coral-soft);
-      border-radius: 12px;
-      padding: 1.25rem;
-    }
+  <!-- Favicons -->
+  <link href="/assets/img/favicon.png" rel="icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    .services h3 {
-      font-family: "Montserrat", sans-serif;
-      font-weight: 700;
-      font-size: 1rem;
-      color: var(--coral-dark);
-      margin-bottom: 0.35rem;
-    }
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    .services p {
-      font-size: 0.92rem;
-      color: var(--muted);
-    }
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
-    .facts {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 0.5rem 1.75rem;
-      margin-top: 1.75rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid #f1e4e1;
-      font-size: 0.9rem;
-      font-weight: 600;
-      color: var(--muted);
-    }
+  <!-- Main CSS File -->
+  <link href="/assets/css/main.css" rel="stylesheet">
 
-    .facts span::before {
-      content: "✓";
-      color: var(--coral);
-      margin-right: 0.4rem;
-    }
-
-    .contact {
-      text-align: center;
-      margin-top: 2.5rem;
-    }
-
-    .contact p { color: var(--muted); }
-
-    .btn {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.85rem 1.75rem;
-      border-radius: 999px;
-      background: var(--coral);
-      color: var(--white);
-      font-family: "Montserrat", sans-serif;
-      font-weight: 700;
-      text-decoration: none;
-      transition: background 0.2s ease;
-    }
-
-    .btn:hover, .btn:focus-visible { background: var(--coral-dark); }
-
-    footer {
-      text-align: center;
-      padding: 1.5rem 1.25rem;
-      font-size: 0.85rem;
-      color: var(--muted);
-    }
-
-    @media (max-width: 480px) {
-      .logo { width: 140px; height: 140px; }
-      .card { padding: 1.75rem 1.25rem; }
-    }
-  </style>
+  <!-- =======================================================
+  * Template Name: MediCare
+  * Template URL: https://bootstrapmade.com/medicare-bootstrap-template/
+  * Updated: Apr 28 2026 with Bootstrap v5.3.8
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body>
-  <header class="hero">
-    <img class="logo" src="logo.png" alt="Advantage Care Services logo">
-    <p class="eyebrow">New Website Coming Soon</p>
-    <h1>Care in the comfort of home.</h1>
-    <p class="tagline">
-      Advantage Care Services provides compassionate, non-medical home care so
-      you and your loved ones can live safely and independently at home.
-    </p>
+
+<body class="index-page">
+
+  
+    <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="/" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="/assets/img/logo.webp" alt="Advantage Care Services" width="600" height="162">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="/" class="active">Home</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/services/">Services</a></li>
+          <li><a href="/locations/">Locations</a></li>
+          <li class="dropdown"><a href="#"><span>Careers</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="/application/">Application Form</a></li>
+              <li><a href="/team-resources/">Team Resources</a></li>
+            </ul>
+          </li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="/get-care/"><i class="bi bi-calendar3"></i> Get Care Now</a>
+
+    </div>
   </header>
 
-  <main>
-    <section class="card">
-      <h2>What we do</h2>
-      <ul class="services">
-        <li>
-          <h3>Personal Care</h3>
-          <p>Help with hygiene, grooming, mobility, meals, and medication reminders.</p>
-        </li>
-        <li>
-          <h3>Homemaker Services</h3>
-          <p>Light housekeeping, laundry, errands, grocery shopping, and companionship.</p>
-        </li>
-        <li>
-          <h3>Deep Cleaning</h3>
-          <p>A dedicated team to restore homes that need an intensive cleanup.</p>
-        </li>
-      </ul>
-      <div class="facts">
-        <span>Licensed in Illinois</span>
-        <span>20+ years combined experience</span>
-        <span>Screened &amp; supervised caregivers</span>
-        <span>12 languages spoken</span>
-      </div>
-    </section>
+  
+  <main class="main">
 
-    <section class="contact">
-      <p>Serving Will, DuPage, Cook, Kankakee, Grundy, Kendall, Kane, McHenry &amp; Lake counties.</p>
-    </section>
+<!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container">
+        <div class="row align-items-center gy-5 gx-lg-5">
+
+          <div class="col-lg-6">
+            <div class="hero-content">
+              <h1 class="hero-headline">
+                <span class="hero-eyebrow">Home Care in Chicago, Joliet &amp; Bolingbrook, IL</span>
+                Quality Care <span class="headline-accent">for a Better Life</span>
+              </h1>
+              <p class="hero-subtext">Advantage Care Services, Inc. provides non-medical home care, homemaker, and personal care services to families across the Chicago area from our offices in Bolingbrook, Chicago, and Joliet, helping you or your loved one live safely and comfortably at home.</p>
+
+              <div class="action-row">
+                <a href="/get-care/" class="btn btn-solid">
+                  <i class="bi bi-calendar3"></i>
+                  <span>Get Care Now</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+                <a href="/services/" class="btn btn-outline">
+                  <span>Our Services</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+
+              <ul class="feature-row">
+                <li>
+                  <span class="feature-icon"><i class="bi bi-patch-check"></i></span>
+                  <span class="feature-label">Licensed by Illinois DHS</span>
+                </li>
+                <li>
+                  <span class="feature-icon"><i class="bi bi-people"></i></span>
+                  <span class="feature-label">20+ Years Combined Experience</span>
+                </li>
+                <li>
+                  <span class="feature-icon"><i class="bi bi-shield-check"></i></span>
+                  <span class="feature-label">Screened &amp; Supervised Caregivers</span>
+                </li>
+              </ul>
+            </div>
+          </div><!-- End Hero Content -->
+
+          <div class="col-lg-6">
+            
+
+
+<div class="hero-media">
+  
+  
+    
+    <img src="/assets/img/hero/caregiver-visit.webp" alt="Caregiver sitting with an older woman on the sofa in her living room" width="1100" height="1375" style="object-position: 50% 35%;" fetchpriority="high">
+    
+  
+  
+</div>
+
+          </div><!-- End Hero Media -->
+
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Home About Section -->
+    <section id="home-about" class="home-about section">
+
+      <div class="container">
+
+        <div class="row align-items-center mb-5 gy-4">
+          <div class="col-lg-7">
+            <span class="eyebrow-badge">
+              <i class="bi bi-shield-check"></i>
+              Licensed by Illinois DHS
+            </span>
+            <h2 class="display-heading">Care That Helps You Stay at Home</h2>
+          </div>
+          <div class="col-lg-5">
+            <p class="intro-copy">Advantage Care Services, Inc. is an Illinois provider of non-medical home care, homemaker, and personal care services. Our caregivers bring comfort, peace, stability, and support directly to your home, so you can keep your independence in familiar surroundings.</p>
+          </div>
+        </div><!-- End Heading Block -->
+
+        <div class="stats-strip">
+          <div class="stat-cell">
+            <div class="stat-value">20+</div>
+            <div class="stat-label">Years Combined Experience</div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-value">12</div>
+            <div class="stat-label">Languages Spoken</div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-value">9</div>
+            <div class="stat-label">Illinois Counties Served</div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-value">6</div>
+            <div class="stat-label">Health Plans &amp; MCOs</div>
+          </div>
+        </div><!-- End Stats Strip -->
+
+        <div class="row gy-4 mt-2">
+          <div class="col-lg-5">
+            <div class="media-stack">
+              <figure class="media-card primary">
+                <img src="/assets/img/homecare-1.webp" alt="Compassionate home caregiver providing in-home personal care and companionship to an older adult." class="img-fluid" width="1024" height="683" loading="lazy">
+                <figcaption class="media-tag">
+                  <i class="bi bi-house-heart"></i>
+                  <span>Care in Your Home</span>
+                </figcaption>
+              </figure>
+              <div class="media-row">
+                <figure class="media-card">
+                  <img src="/assets/img/homecare-2.webp" alt="Older couple smiling together at home, reflecting comfort, companionship, and independent living." class="img-fluid" width="1024" height="683" loading="lazy">
+                </figure>
+                <figure class="media-card">
+                  <img src="/assets/img/homecare-3.webp" alt="Smiling older adult at home, representing comfort, independence, and compassionate in-home care." class="img-fluid" width="1024" height="683" loading="lazy">
+                </figure>
+              </div>
+            </div>
+          </div><!-- End Media Stack -->
+
+          <div class="col-lg-7">
+            <div class="feature-card primary-card">
+              <div class="card-head">
+                <span class="icon-square">
+                  <i class="bi bi-heart-fill"></i>
+                </span>
+                <div class="head-text">
+                  <span class="meta-label">Our Approach</span>
+                  <h3 class="card-title">Support Built Around Your Care Plan</h3>
+                </div>
+              </div>
+              <p class="card-description">Our homemakers help with activities of daily living according to each client's care plan. You get the support you need while keeping the independence and routines you value.</p>
+            </div><!-- End Primary Card -->
+
+            <div class="row g-3 capabilities-grid">
+              <div class="col-sm-6">
+                <div class="feature-card compact">
+                  <i class="bi bi-person-heart"></i>
+                  <div class="compact-text">
+                    <h4>Personal Care</h4>
+                    <p>Hygiene, grooming, transfers, and incontinence care assistance.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="feature-card compact">
+                  <i class="bi bi-house-heart"></i>
+                  <div class="compact-text">
+                    <h4>Homemaker Services</h4>
+                    <p>Meals, laundry, light housekeeping, and keeping the home in order.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="feature-card compact">
+                  <i class="bi bi-people"></i>
+                  <div class="compact-text">
+                    <h4>Companionship &amp; Errands</h4>
+                    <p>Friendly company, shopping, prescription pickup, and appointments.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="feature-card compact">
+                  <i class="bi bi-stars"></i>
+                  <div class="compact-text">
+                    <h4>Deep Cleaning</h4>
+                    <p>A dedicated team for homes that need an intensive cleanup.</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Capabilities Grid -->
+
+            <div class="action-row">
+              <a href="/services/" class="btn-primary-shadcn">
+                Explore Our Services
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              <a href="/contact/" class="btn-ghost-shadcn">
+                <i class="bi bi-chat-dots"></i>
+                Contact Us
+              </a>
+            </div><!-- End Action Row -->
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Home About Section -->
+
+    <!-- Featured Departments Section -->
+    <section id="featured-departments" class="featured-departments section light-background">
+
+      <div class="container">
+
+        <div class="departments-wrapper">
+
+          <div class="spotlight-panel">
+            <div class="row g-0 align-items-stretch">
+              <div class="col-lg-7">
+                <div class="spotlight-body">
+                  <div class="spotlight-meta">
+                    <span class="badge-pill">
+                      <span class="pulse-dot"></span>
+                      <span>Dedicated Team</span>
+                    </span>
+                    <span class="meta-label">Deep Cleaning</span>
+                  </div>
+                  <h2 class="spotlight-title">Deep Cleaning for Homes That Need a Fresh Start</h2>
+                  <p class="spotlight-text">Beyond routine housekeeping, our dedicated deep cleaning team takes on homes with extremely poor or unsanitary living conditions. It's an intensive cleanup designed to transform heavily soiled or neglected homes and make them feel restored.</p>
+                  <ul class="checklist">
+                    <li>
+                      <i class="bi bi-check2"></i>
+                      <div>
+                        <span class="check-title">Dedicated Cleanup Team</span>
+                        <span class="check-sub">Separate from our routine homemaker services</span>
+                      </div>
+                    </li>
+                    <li>
+                      <i class="bi bi-check2"></i>
+                      <div>
+                        <span class="check-title">Intensive, Top-to-Bottom Cleanup</span>
+                        <span class="check-sub">For heavily soiled or neglected homes</span>
+                      </div>
+                    </li>
+                    <li>
+                      <i class="bi bi-check2"></i>
+                      <div>
+                        <span class="check-title">Works Alongside Ongoing Care</span>
+                        <span class="check-sub">Pair it with homemaker and personal care support</span>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="spotlight-actions">
+                    <a href="/get-care/" class="btn-shadcn primary">Request Deep Cleaning</a>
+                    <a href="/services/#deep-cleaning" class="btn-shadcn ghost">Learn More <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="spotlight-visual">
+                  <img src="/assets/img/deepclean-1.webp" alt="Professional deep cleaning team thoroughly cleaning and vacuuming a home’s kitchen and living area." class="img-fluid" width="1024" height="683" loading="lazy">
+                </div>
+              </div>
+            </div>
+          </div><!-- End Spotlight Panel -->
+
+          <div class="section-heading">
+            <div>
+              <span class="meta-label">Home Care Services</span>
+              <h3 class="heading-title">How We Help Every Day</h3>
+            </div>
+            <a href="/services/" class="btn-shadcn secondary">All Services <i class="bi bi-grid"></i></a>
+          </div><!-- End Section Heading -->
+
+          <div class="row g-3">
+            
+            <div class="col-lg-4 col-md-6">
+              <article class="shadcn-card">
+                <header class="card-head">
+                  <span class="card-icon"><i class="bi bi-person-heart"></i></span>
+                  <span class="badge-pill subtle">Service</span>
+                </header>
+                <div class="card-body">
+                  <h4 class="card-heading">Personal Care</h4>
+                  <p class="card-text">Respectful, hands-on help with the personal routines that keep you comfortable and confident.</p>
+                </div>
+                <footer class="card-foot">
+                  <div class="foot-stat">
+                    <span class="value">4</span>
+                    <span class="caption">Services</span>
+                  </div>
+                  <a href="/services/" class="foot-link" aria-label="View Personal Care services"><i class="bi bi-arrow-up-right"></i></a>
+                </footer>
+              </article>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+              <article class="shadcn-card">
+                <header class="card-head">
+                  <span class="card-icon"><i class="bi bi-cup-hot"></i></span>
+                  <span class="badge-pill subtle">Service</span>
+                </header>
+                <div class="card-body">
+                  <h4 class="card-heading">Meals & Nutrition</h4>
+                  <p class="card-text">Planning and preparing meals, and help at mealtimes when it's needed.</p>
+                </div>
+                <footer class="card-foot">
+                  <div class="foot-stat">
+                    <span class="value">3</span>
+                    <span class="caption">Services</span>
+                  </div>
+                  <a href="/services/" class="foot-link" aria-label="View Meals & Nutrition services"><i class="bi bi-arrow-up-right"></i></a>
+                </footer>
+              </article>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+              <article class="shadcn-card">
+                <header class="card-head">
+                  <span class="card-icon"><i class="bi bi-person-walking"></i></span>
+                  <span class="badge-pill subtle">Service</span>
+                </header>
+                <div class="card-body">
+                  <h4 class="card-heading">Mobility & Exercise</h4>
+                  <p class="card-text">Safe support for moving around the home and staying active.</p>
+                </div>
+                <footer class="card-foot">
+                  <div class="foot-stat">
+                    <span class="value">3</span>
+                    <span class="caption">Services</span>
+                  </div>
+                  <a href="/services/" class="foot-link" aria-label="View Mobility & Exercise services"><i class="bi bi-arrow-up-right"></i></a>
+                </footer>
+              </article>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+              <article class="shadcn-card">
+                <header class="card-head">
+                  <span class="card-icon"><i class="bi bi-calendar-check"></i></span>
+                  <span class="badge-pill subtle">Service</span>
+                </header>
+                <div class="card-body">
+                  <h4 class="card-heading">Reminders & Appointments</h4>
+                  <p class="card-text">Staying on schedule with medications and appointments, with a companion by your side.</p>
+                </div>
+                <footer class="card-foot">
+                  <div class="foot-stat">
+                    <span class="value">4</span>
+                    <span class="caption">Services</span>
+                  </div>
+                  <a href="/services/" class="foot-link" aria-label="View Reminders & Appointments services"><i class="bi bi-arrow-up-right"></i></a>
+                </footer>
+              </article>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+              <article class="shadcn-card">
+                <header class="card-head">
+                  <span class="card-icon"><i class="bi bi-house-heart"></i></span>
+                  <span class="badge-pill subtle">Service</span>
+                </header>
+                <div class="card-body">
+                  <h4 class="card-heading">Housekeeping & Laundry</h4>
+                  <p class="card-text">Keeping your home clean, tidy, and comfortable to live in.</p>
+                </div>
+                <footer class="card-foot">
+                  <div class="foot-stat">
+                    <span class="value">5</span>
+                    <span class="caption">Services</span>
+                  </div>
+                  <a href="/services/" class="foot-link" aria-label="View Housekeeping & Laundry services"><i class="bi bi-arrow-up-right"></i></a>
+                </footer>
+              </article>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+              <article class="shadcn-card">
+                <header class="card-head">
+                  <span class="card-icon"><i class="bi bi-bag-heart"></i></span>
+                  <span class="badge-pill subtle">Service</span>
+                </header>
+                <div class="card-body">
+                  <h4 class="card-heading">Errands & Companionship</h4>
+                  <p class="card-text">Help with shopping and errands, and friendly company throughout the day.</p>
+                </div>
+                <footer class="card-foot">
+                  <div class="foot-stat">
+                    <span class="value">5</span>
+                    <span class="caption">Services</span>
+                  </div>
+                  <a href="/services/" class="foot-link" aria-label="View Errands & Companionship services"><i class="bi bi-arrow-up-right"></i></a>
+                </footer>
+              </article>
+            </div>
+            
+          </div><!-- End Services Grid -->
+
+          <div class="banner-cta">
+            <div class="banner-icon">
+              <i class="bi bi-geo-alt"></i>
+            </div>
+            <div class="banner-text">
+              <h4 class="banner-title">Offices in Bolingbrook, Chicago, and Joliet</h4>
+              <p class="banner-sub">We come to you in Will, DuPage, Cook, Kankakee, Grundy, Kendall, Kane, McHenry, and Lake counties (PSA 2, 12, and 13).</p>
+            </div>
+            <div class="banner-actions">
+              <a href="/contact/" class="btn-shadcn primary">Contact Us</a>
+              <a href="/locations/" class="btn-shadcn ghost">Our Locations</a>
+            </div>
+          </div><!-- End Banner CTA -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Featured Departments Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section light-background">
+
+      <div class="container">
+
+        <div class="hero-panel">
+          <div class="row g-0">
+            <div class="col-lg-7">
+              <div class="panel-content">
+                <span class="badge-pill">
+                  <i class="bi bi-shield-check"></i>
+                  <span>Screened &amp; Supervised Caregivers</span>
+                </span>
+                <h2>Comfort, Peace, and Support, Right at Home</h2>
+                <p class="lead-text">Every caregiver and homemaker goes through pre-employment screening, training, and criminal background checks, with ongoing monitoring and supervision, so families can count on reliable, compassionate care.</p>
+
+                <div class="button-row">
+                  <a href="/get-care/" class="btn-primary-shad">Get Care Now</a>
+                  <a href="/about/" class="btn-ghost-shad">
+                    <span>About Us</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+
+                <div class="trust-row">
+                  <div class="trust-item">
+                    <i class="bi bi-patch-check"></i>
+                    <span>Licensed by Illinois DHS</span>
+                  </div>
+                  <div class="trust-item">
+                    <i class="bi bi-clock-history"></i>
+                    <span>20+ Years Combined Experience</span>
+                  </div>
+                  <div class="trust-item">
+                    <i class="bi bi-translate"></i>
+                    <span>12 Languages Spoken</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="panel-visual">
+                <img src="/assets/img/homecare-5.webp" alt="Home caregiver assisting an older adult with a walker, supporting safe mobility and independence at home." class="img-fluid" width="1920" height="1080" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </div><!-- End Hero Panel -->
+
+        <div class="specialties-section">
+          <div class="specialties-header">
+            <span class="section-eyebrow">Programs &amp; Health Plans</span>
+            <h3>Working with the programs you rely on</h3>
+          </div>
+
+          <div class="row g-3">
+
+            <div class="col-lg-4 col-md-6">
+              <div class="shad-card">
+                <div class="card-head">
+                  <div class="card-icon">
+                    <i class="bi bi-bank"></i>
+                  </div>
+                  <span class="card-tag">Licensed</span>
+                </div>
+                <div class="card-body-shad">
+                  <h4>Illinois Department of Human Services</h4>
+                  <p>Licensed to provide non-medical home care services under the Home Services Program, working collaboratively with local government programs.</p>
+                </div>
+                <div class="card-foot">
+                  <a href="/contact/" class="card-link">
+                    <span>Ask about eligibility</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="shad-card">
+                <div class="card-head">
+                  <div class="card-icon">
+                    <i class="bi bi-person-hearts"></i>
+                  </div>
+                  <span class="card-tag">Program</span>
+                </div>
+                <div class="card-body-shad">
+                  <h4>Illinois Department on Aging</h4>
+                  <p>Providing in-home and community care services to help older adults remain safely and comfortably in their own homes.</p>
+                </div>
+                <div class="card-foot">
+                  <a href="/contact/" class="card-link">
+                    <span>Ask about eligibility</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="shad-card">
+                <div class="card-head">
+                  <div class="card-icon">
+                    <i class="bi bi-card-checklist"></i>
+                  </div>
+                  <span class="card-tag">Health Plans</span>
+                </div>
+                <div class="card-body-shad">
+                  <h4>Managed Care Organizations</h4>
+                  <p>We work with Humana, Aetna, Blue Cross Blue Shield, Meridian, Molina, and CountyCare.</p>
+                </div>
+                <div class="card-foot">
+                  <a href="/contact/" class="card-link">
+                    <span>Ask about your plan</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div><!-- End Programs Section -->
+
+        <div class="alert-strip">
+          <div class="alert-row">
+            <div class="alert-meta">
+              <div class="alert-icon">
+                <i class="bi bi-telephone-inbound"></i>
+              </div>
+              <div class="alert-text">
+                <span class="alert-eyebrow">Talk to Us</span>
+                <h5>Looking for care for yourself or a loved one?</h5>
+                <p>Contact our Bolingbrook, Chicago, or Joliet office and we'll help you find the right support. Our team speaks 12 languages.</p>
+              </div>
+            </div>
+            <div class="alert-actions">
+              <a href="/contact/" class="btn-primary-shad">
+                <i class="bi bi-chat-dots"></i>
+                <span>Contact Us</span>
+              </a>
+              <a href="/locations/" class="btn-outline-shad">Our Locations</a>
+            </div>
+          </div>
+        </div><!-- End Alert Strip -->
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
   </main>
 
-  <footer>
-    &copy; <span id="year">2026</span> Advantage Care Services, Inc. &middot; Bolingbrook, Illinois
+  
+<footer id="footer" class="footer dark-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="/" class="logo d-flex align-items-center">
+              <span class="sitename">Advantage Care Services</span>
+            </a>
+            <p>Home care from offices in Bolingbrook, Chicago, and Joliet, serving Will, DuPage, Cook, Kankakee, Grundy, Kendall, Kane, McHenry, and Lake counties in Illinois (PSA 2, 12, and 13).</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about/">About us</a></li>
+              <li><a href="/application/">Application Form</a></li>
+              <li><a href="/services/">Services</a></li>
+              <li><a href="/locations/">Locations</a></li>
+              <li><a href="/contact/">Contact</a></li>
+              <li><a href="/privacy/">Privacy policy</a></li>
+              <li><a href="/accessibility/">Accessibility policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              
+              <li><a href="/services/">Personal Care</a></li>
+              
+              <li><a href="/services/">Meals & Nutrition</a></li>
+              
+              <li><a href="/services/">Mobility & Exercise</a></li>
+              
+              <li><a href="/services/">Reminders & Appointments</a></li>
+              
+              <li><a href="/services/">Housekeeping & Laundry</a></li>
+              
+              <li><a href="/services/">Errands & Companionship</a></li>
+              
+              <li><a href="/services/#deep-cleaning">Deep Cleaning</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="footer-locations">
+          <div class="row gy-4">
+            
+            <div class="col-md-4 footer-contact">
+              <h4>Bolingbrook Office</h4>
+              <p>503 South Weber Road, Suite 203C</p>
+              <p>Bolingbrook, IL 60490</p>
+              <p class="mt-3"><strong>Phone:</strong> <a href="tel:+13314313040">331-431-3040</a></p>
+              <p><strong>Fax:</strong> <span>630-759-0327</span></p>
+            </div>
+            
+            <div class="col-md-4 footer-contact">
+              <h4>Chicago Office</h4>
+              <p>3520 South Morgan, Suite 225</p>
+              <p>Chicago, IL 60609</p>
+              <p class="mt-3"><strong>Phone:</strong> <a href="tel:+17734756573">773-475-6573</a></p>
+              <p><strong>Fax:</strong> <span>630-759-0327</span></p>
+            </div>
+            
+            <div class="col-md-4 footer-contact">
+              <h4>Joliet Office</h4>
+              <p>210 North Hammes Ave, Suite 201</p>
+              <p>Joliet, IL 60435</p>
+              <p class="mt-3"><strong>Phone:</strong> <a href="tel:+17792421672">779-242-1672</a></p>
+              <p><strong>Fax:</strong> <span>630-759-0327</span></p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div>
+            © Copyright <strong><span>Advantage Care Services, Inc.</span></strong>. All Rights Reserved
+          </div>
+        </div>
+
+        <div class="small text-center text-lg-end mt-2 mt-lg-0">
+          We comply with applicable federal civil rights laws and do not discriminate on the basis of race, color, national origin, ancestry, age, disability, sex, marital status, gender, sexual orientation, gender identity, or religion.
+        </div>
+
+      </div>
+    </div>
+
   </footer>
 
-  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="/assets/js/main.js"></script>
+
+
 </body>
+
 </html>
